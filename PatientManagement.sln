@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.API.IntegrationTests", "tests\PatientManagement.API.IntegrationTests\PatientManagement.API.IntegrationTests.csproj", "{F5D785A7-1ACB-463F-9BBB-01466614AE55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Infrastructure.Tests", "tests\PatientManagement.Infrastructure.Tests\PatientManagement.Infrastructure.Tests.csproj", "{3A51B1CE-4092-47D6-9EF2-A44BDEA0F4ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{F5D785A7-1ACB-463F-9BBB-01466614AE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5D785A7-1ACB-463F-9BBB-01466614AE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5D785A7-1ACB-463F-9BBB-01466614AE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A51B1CE-4092-47D6-9EF2-A44BDEA0F4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A51B1CE-4092-47D6-9EF2-A44BDEA0F4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A51B1CE-4092-47D6-9EF2-A44BDEA0F4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A51B1CE-4092-47D6-9EF2-A44BDEA0F4ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1D14D22-0D4F-4AD5-9EB4-F884CC7CAC65} = {DE6A0F01-0303-4125-93D2-D7E9FAAFA89F}
@@ -67,5 +73,6 @@ Global
 		{EADF71D2-D553-41F3-8C4A-573B8DEEC2AB} = {9EEB3107-3619-4F16-9484-18C9C085BFCD}
 		{8C15C1E7-4B26-410D-B9A9-F3CE81CDF8CE} = {9EEB3107-3619-4F16-9484-18C9C085BFCD}
 		{F5D785A7-1ACB-463F-9BBB-01466614AE55} = {9EEB3107-3619-4F16-9484-18C9C085BFCD}
+		{3A51B1CE-4092-47D6-9EF2-A44BDEA0F4ED} = {9EEB3107-3619-4F16-9484-18C9C085BFCD}
 	EndGlobalSection
 EndGlobal
