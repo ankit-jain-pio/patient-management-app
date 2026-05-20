@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
     <PackageReference Include="Moq" Version="4.20.70" />
     <PackageReference Include="xunit" Version="2.7.0" />
@@ -30,6 +31,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\PatientManagement.Application\PatientManagement.Application.csproj" />
+    <ProjectReference Include="..\..\src\PatientManagement.Infrastructure\PatientManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
