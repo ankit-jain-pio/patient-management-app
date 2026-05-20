@@ -79,6 +79,8 @@ public static class ServiceCollectionExtensions
         // Application Services
         services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
         services.AddScoped<IPdfService, PdfService>();
+        services.AddScoped<ICsvExportService, CsvExportService>();
+        services.AddScoped<IPdfExportService, PdfExportService>();
         
         // Swagger
         services.AddSwaggerGen(options =>
